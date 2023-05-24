@@ -1,0 +1,19 @@
+name: walletika_data_builder
+description: Data builder to build an API structure for encrypted data.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+publish_to: none
+
+environment:
+  sdk: ^3.0.0
+
+# Add regular dependencies here.
+dependencies:
+  aescrypto:
+    git:
+      url: https://github.com/MahmoudKhalid/aescrypto-dart.git
+      ref: main
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
