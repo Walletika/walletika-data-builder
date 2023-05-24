@@ -1,2 +1,4 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+### Usage
+- Create `data.json` file with data
+- Execute the command `dart bin\main.dart encryptionKey`
+- Encrypted data will found in `data_output.json` file
